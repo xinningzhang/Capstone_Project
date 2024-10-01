@@ -129,3 +129,9 @@ Feel free to rename the folder and customize the project structure to best fit y
 ### Credits & References
 
 ... Include any personal learning
+
+------------------------------------------------------------------------------
+Data set: https://www.kaggle.com/datasets/ahsan81/food-ordering-and-delivery-app-dataset/data
+Analysis 1: https://www.kaggle.com/code/xinningzhang1/notebookc236a99686/edit
+Analysis 2: https://www.kaggle.com/code/nonnyman1/nyc-restaurant-food-order-data/notebook
+
