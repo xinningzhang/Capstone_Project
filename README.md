@@ -1,4 +1,4 @@
-## Project Title: Predicting NYC Restaurant Demand
+## Capstone Project: Predicting NYC Restaurant Demand
 ------------------------------------------------------------------------------
 
 ### Executive Summary
