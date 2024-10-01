@@ -1,3 +1,44 @@
+## Project Title: Predicting NYC Restaurant Demand
+------------------------------------------------------------------------------
+
+### Executive Summary
+
+#### Problem Definition:
+FoodHub, an online food delivery platform, faces challenges in understanding customer demand, optimizing delivery times, and improving restaurant performance. With increasing competition, it's crucial to enhance customer satisfaction and streamline operations to remain competitive.
+
+#### Data Science Opportunity:
+Using FoodHub's historical order data, we can predict restaurant demand, optimize delivery efficiency, and provide personalized restaurant recommendations. By leveraging machine learning models and data analysis, this project identifies patterns in customer behavior, order trends, and operational bottlenecks. These insights enable targeted marketing strategies, improved delivery routes, and better restaurant partnerships.
+
+#### Affected Parties:
+- **Restaurant Owners**: Struggle to meet fluctuating demand and maintain high-quality service.
+- **Delivery Personnel**: Face delays and inefficiencies in delivery routing.
+- **Customers**: Experience inconsistent delivery times and limited personalized recommendations, impacting their satisfaction.
+  
+#### Key Takeaways:
+- **Predictive Demand Models**: Accurately forecast restaurant demand to enhance preparation and delivery times.
+- **Personalized Recommendations**: Tailor restaurant suggestions to improve customer experience.
+- **Operational Efficiency**: Optimize delivery routes and resource allocation to reduce delivery times.
+- **Business Growth**: Data-driven insights support targeted marketing and partnerships, leading to increased customer satisfaction and revenue growth.
+
+#### Dataset Description:
+The dataset includes detailed information about customer orders, such as:
+- **Order ID**: Unique identifier for each order.
+- **Customer ID**: Unique identifier for each customer.
+- **Restaurant Name**: Name of the restaurant fulfilling the order.
+- **Cuisine Type**: Type of cuisine ordered.
+- **Cost of the Order**: Total cost of the order.
+- **Day of the Week**: Whether the order was placed on a weekday or weekend.
+- **Rating**: Customer rating of the order (out of 5).
+- **Food Preparation Time**: Time taken by the restaurant to prepare the food.
+- **Delivery Time**: Time taken by the delivery person to deliver the food after pickup.
+
+  
+This project provides actionable solutions to drive operational improvements and customer engagement, ensuring sustained success for FoodHub.
+
+
+
+
+------------------------------------------------------------------------------
 # BrainStation Data Science Capstone Project
 
 This is a template repository for setting up your capstone project: it includes a simple folder structure and placeholder files for the most important assets you will be creating.
@@ -29,24 +70,6 @@ Feel free to rename the folder and customize the project structure to best fit y
 
 ------------------------------------------------------------------------------
 
-## Project Title: Predicting NYC Restaurant Demand
-=========================
-
-### Executive Summary
-
-#### Problem Definition:
-FoodHub, an online food delivery platform, faces challenges in understanding customer demand, optimizing delivery times, and improving restaurant performance. With increasing competition, it's crucial to enhance customer satisfaction and streamline operations to remain competitive.
-
-#### Data Science Opportunity:
-Using FoodHub's historical order data, we can predict restaurant demand, optimize delivery efficiency, and provide personalized restaurant recommendations. By leveraging machine learning models and data analysis, this project identifies patterns in customer behavior, order trends, and operational bottlenecks. These insights enable targeted marketing strategies, improved delivery routes, and better restaurant partnerships.
-
-#### Key Takeaways:
-- **Predictive Demand Models**: Accurately forecast restaurant demand to enhance preparation and delivery times.
-- **Personalized Recommendations**: Tailor restaurant suggestions to improve customer experience.
-- **Operational Efficiency**: Optimize delivery routes and resource allocation to reduce delivery times.
-- **Business Growth**: Data-driven insights support targeted marketing and partnerships, leading to increased customer satisfaction and revenue growth.
-
-This project provides actionable solutions to drive operational improvements and customer engagement, ensuring sustained success for FoodHub.
 
 ### Demo
 
