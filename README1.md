@@ -1,26 +1,11 @@
-## Capstone Project: Predicting NYC Restaurant Demand
+## Capstone Project: Predicting NYC Taxi Fare
 ------------------------------------------------------------------------------
 
 ### Executive Summary
+The project aims to develop a predictive model to forecast taxi fares in New York City using a comprehensive dataset of taxi trip records. By analyzing key factors such as trip distance, passenger count, location identifiers, and additional fare components (e.g., tips, tolls, surcharges), the project seeks to improve fare estimation accuracy and optimize pricing strategies for taxi services.
 
-#### Problem Definition:
-FoodHub, an online food delivery platform, faces challenges in understanding customer demand, optimizing delivery times, and improving restaurant performance. With increasing competition, it's crucial to enhance customer satisfaction and streamline operations to remain competitive.
 
-#### Data Science Opportunity:
-Using FoodHub's historical order data, we can predict restaurant demand, optimize delivery efficiency, and provide personalized restaurant recommendations. By leveraging machine learning models and data analysis, this project identifies patterns in customer behavior, order trends, and operational bottlenecks. These insights enable targeted marketing strategies, improved delivery routes, and better restaurant partnerships.
-
-#### Affected Parties:
-- **Restaurant Owners**: Struggle to meet fluctuating demand and maintain high-quality service.
-- **Delivery Personnel**: Face delays and inefficiencies in delivery routing.
-- **Customers**: Experience inconsistent delivery times and limited personalized recommendations, impacting their satisfaction.
-  
-#### Key Takeaways:
-- **Predictive Demand Models**: Accurately forecast restaurant demand to enhance preparation and delivery times.
-- **Personalized Recommendations**: Tailor restaurant suggestions to improve customer experience.
-- **Operational Efficiency**: Optimize delivery routes and resource allocation to reduce delivery times.
-- **Business Growth**: Data-driven insights support targeted marketing and partnerships, leading to increased customer satisfaction and revenue growth.
-
-#### Dataset Description:
+### Dataset Description:
 The dataset includes detailed information about customer orders, such as:
 - **Order ID**: Unique identifier for each order.
 - **Customer ID**: Unique identifier for each customer.
