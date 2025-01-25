@@ -1,0 +1,76 @@
+# Capstone Project: Predicting NYC Taxi Fare
+
+## 🚖 Summary
+This project develops a predictive model for NYC taxi fares using trip records. By analyzing factors like trip distance, passenger count, and pickup/dropoff locations, it improves fare estimation and optimizes pricing strategies.
+
+---
+
+## Data Dictionary
+
+### Dataset 1 (Model Building)
+- `order_id`: Unique trip ID
+- `customer_id`: Customer ID
+- `cost`: Fare amount
+- `day_of_the_week`: Weekday or weekend
+- `delivery_time`: Delivery duration (used as reference for trip duration)
+
+### Dataset 2 (Mapping and Analysis)
+- `key`: Unique trip identifier
+- `fare_amount`: Total fare (USD)
+- `pickup_datetime`: Trip start time
+- `pickup_longitude`, `pickup_latitude`: Pickup location
+- `dropoff_longitude`, `dropoff_latitude`: Dropoff location
+- `passenger_count`: Number of passengers
+
+---
+
+## Methodology
+1. **Data Cleaning**:
+   - Removed outliers (e.g., negative fares or zero passenger counts).
+   - Standardized datetime and location data.
+
+2. **Feature Engineering**:
+   - Calculated trip distance (haversine).
+   - Extracted time-based features (hour, day of the week).
+
+3. **Modeling**:
+   - Baseline: Linear Regression
+   - Advanced: Random Forest, Gradient Boosting
+
+4. **Evaluation**:
+   - Metrics: RMSE, MAE, R²
+   - Cross-validation for robustness.
+
+---
+
+## Interactive Visualization
+1. **Interactive Map**:
+   - Visualizes pickup and dropoff locations in separate layers.
+   - Highlights high-demand areas like Midtown Manhattan and Financial District using polygons.
+   - Includes landmarks such as JFK Airport, Times Square, and Central Park.
+
+
+2. **Fare Prediction Model**:
+   - Users can input trip details (e.g., distance, time, and day of the week) to predict taxi fares in real-time.
+   - Built using a regression-based model that incorporates trip distance, passenger count, and time-based features.
+   - Outputs estimated fare, providing insights for pricing optimization.
+
+---
+
+## Results
+- **Key Factors**:
+  - Trip distance and time of day are the most significant predictors of taxi fares.
+- **Model Insights**:
+  - Advanced models outperform baseline models in fare prediction accuracy.
+- **Visual Discoveries**:
+  - High-demand areas and airport routes consistently show higher fare trends.
+  - Heatmaps reveal concentrated taxi activity in Manhattan and at major airports.
+- **Practical Application**:
+  - The model provides actionable insights for pricing strategies and trip cost estimations.
+
+---
+
+## Acknowledgments
+- The dataset is sourced from [Kaggle's NYC Taxi Fare Data Exploration](https://www.kaggle.com/code/breemen/nyc-taxi-fare-data-exploration/notebook).
+- Geospatial data and map visualizations are powered by [OpenStreetMap](https://www.openstreetmap.org/export#map=9/40.711/-73.659).
+
