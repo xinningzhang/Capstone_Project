@@ -8,11 +8,24 @@ This project develops a predictive model for NYC taxi fares using trip records. 
 ## Data Dictionary
 
 ### Dataset 1 (Model Building)
-- `order_id`: Unique trip ID
-- `customer_id`: Customer ID
-- `cost`: Fare amount
-- `day_of_the_week`: Weekday or weekend
-- `delivery_time`: Delivery duration (used as reference for trip duration)
+- `VendorID`: Taxi vendor identifier
+- `tpep_pickup_datetime`: Trip start timestamp
+- `tpep_dropoff_datetime`: Trip end timestamp
+- `passenger_count`: Number of passengers
+- `trip_distance`: Distance of the trip in miles
+- `RatecodeID`: Trip rate code
+- `store_and_fwd_flag`: Data storage and forwarding flag
+- `PULocationID`: Pickup location zone ID
+- `DOLocationID`: Dropoff location zone ID
+- `payment_type`: Payment method used
+- `fare_amount`: Base fare amount
+- `extra`: Additional charges
+- `mta_tax`: Mandatory MTA tax
+- `tip_amount`: Tip amount
+- `tolls_amount`: Toll charges
+- `improvement_surcharge`: NYC transportation improvement surcharge
+- `total_amount`: Total fare amount
+- `congestion_surcharge`: Congestion surcharge
 
 ### Dataset 2 (Mapping and Analysis)
 - `key`: Unique trip identifier
