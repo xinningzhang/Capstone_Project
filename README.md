@@ -62,12 +62,20 @@ This project develops a predictive model for NYC taxi fares using trip records. 
    - Highlights high-demand areas like Midtown Manhattan and Financial District using polygons.
    - Includes landmarks such as JFK Airport, Times Square, and Central Park.
 
+   
+2. **Predictive Modeling**：
+- Developed two predictive models:
+  1. **Linear Regression**:
+     - RMSE: 6.98, R²: 0.71.
+     - Simple, interpretable, and effective for this dataset.
+  2. **Random Forest Regression**:
+     - RMSE: 7.71, R²: 0.65.
+     - Handles non-linear patterns but underperformed due to limited features and hyperparameter tuning.
 
-2. **Fare Prediction Model**:
-   - Users can input trip details (e.g., distance, time, and day of the week) to predict taxi fares in real-time.
-   - Built using a regression-based model that incorporates trip distance, passenger count, and time-based features.
-   - Outputs estimated fare, providing insights for pricing optimization.
-
+- Model Comparison:
+  - Linear Regression outperformed Random Forest in accuracy and simplicity.
+  - Random Forest could benefit from further tuning and inclusion of location-based features (e.g., geospatial clustering of zones).
+    
 ---
 
 ## Results
