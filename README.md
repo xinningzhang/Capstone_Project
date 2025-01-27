@@ -1,6 +1,6 @@
 # Capstone Project: Predicting NYC Taxi Fare
 
-## 🚖 Summary
+## 🚖 Project Overview
 This project develops a predictive model for NYC taxi fares using trip records. By analyzing factors like trip distance, passenger count, and pickup/dropoff locations, it improves fare estimation and optimizes pricing strategies.
 
 ---
